@@ -3,28 +3,28 @@
 class Croft < Formula
   desc "VSCode-style TUI written in Rust"
   homepage "https://github.com/vitali87/croft"
-  version "0.2.28"
+  version "0.2.32"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/vitali87/croft/releases/download/v0.2.28/croft-aarch64-apple-darwin.tar.gz"
-      sha256 "169e706e06f824d8555bbd45ecb675ce800be02ee41a148386261e0da6ba125d"
+      url "https://github.com/vitali87/croft/releases/download/v0.2.32/croft-aarch64-apple-darwin.tar.gz"
+      sha256 "dbac5cda4883781899a359abd0ae85e647c324428220c782ba12e45cb46b54b0"
     end
     on_intel do
-      url "https://github.com/vitali87/croft/releases/download/v0.2.28/croft-x86_64-apple-darwin.tar.gz"
-      sha256 "5243ce65f42f28e131850387b8fd790e96a605ca130f15146c1f2e5746d01b62"
+      url "https://github.com/vitali87/croft/releases/download/v0.2.32/croft-x86_64-apple-darwin.tar.gz"
+      sha256 "aa6823ce1eac70f131478550f9e4450e9b4db75d6fa08e4cefd4426761eda234"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vitali87/croft/releases/download/v0.2.28/croft-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "bdb4560de7fd6fcbc0b4b9e596364252331692e2e19371ec366f4acf938c5374"
+      url "https://github.com/vitali87/croft/releases/download/v0.2.32/croft-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "27b626cedeb6830545956a1991c5c2e6a212274449dd4b604623d10d72fd8d2b"
     end
     on_intel do
-      url "https://github.com/vitali87/croft/releases/download/v0.2.28/croft-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6cd42f8ca9f1ef76452ce561683e18c352a2a2e0faaccb72c80cea3249b0a827"
+      url "https://github.com/vitali87/croft/releases/download/v0.2.32/croft-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "6b71e75387b2e316b6274412d1c29127c3a02fa6bd34c8b6549af1924961fb9f"
     end
   end
 
